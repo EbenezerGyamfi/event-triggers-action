@@ -1,5 +1,5 @@
 name: testing-webflow
-on: [push, workflow_run]
+on: ['push', 'workflow_run']
 jobs:
     testing-job-1:
         runs-on: ubuntu
